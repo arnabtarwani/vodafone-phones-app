@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-xl text-blue-600;
+  color: red;
+  border: 10px solid blue;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+a {
+  @apply text-blue-600 underline;
+}
